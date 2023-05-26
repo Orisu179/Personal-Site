@@ -8,12 +8,13 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-modern-personal-website.netlify.app',
+  site: 'https://cs.mcgill.ca/~jli364/',
   integrations: [mdx(), sitemap(), tailwind(), image(
     {
       serviceEntryPoint: '@astrojs/image/sharp',
       cacheDir: "./.cache/image",
       logLevel: 'debug',
     }
-  )]
+  )],
+  outDir: "../public_html"
 });
