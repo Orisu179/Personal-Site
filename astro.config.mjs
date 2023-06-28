@@ -8,7 +8,7 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://cs.mcgill.ca/~jli364/',
+  site: 'https://orisu.netlify.app',
   integrations: [mdx(), sitemap(), tailwind(), image(
     {
       serviceEntryPoint: '@astrojs/image/sharp',
