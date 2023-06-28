@@ -16,5 +16,5 @@ export default defineConfig({
       logLevel: 'debug',
     }
   )],
-  outDir: "../public_html"
+  outDir: "./dist"
 });

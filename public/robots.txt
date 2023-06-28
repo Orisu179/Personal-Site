@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cs.mcgill.ca/~jli364/ 
+Sitemap: 
