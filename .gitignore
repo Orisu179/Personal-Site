@@ -23,4 +23,7 @@ pnpm-lock.yaml
 .astro/
 
 # intellj
-.idea/
+.idea/*
+
+# vscode
+.vscode/*
