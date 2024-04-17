@@ -1,13 +1,13 @@
 ---
-title: "Demo Item 1"
-description: "Item description"
-heroImage: "Item img url"
-details: true // show or hide details btn
-custom_link_label: "Custom btn link label"
-custom_link: "Custom btn link"
-pubDate: "Sep 15 2022"
-pricing: "$15"
+title: "Demo Item 3"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+custom_link_label: "Custom Btn"
+custom_link: "https://customurl.com/"
+updatedDate: "Sep 11 2022"
+pricing: "$10"
 oldPricing: "$25.5"
-badge: "Featured"
 checkoutUrl: "https://checkouturl.com/"
+heroImage: "/itemPreview.png"
 ---
+
+test item1
