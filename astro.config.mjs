@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: '',
+  site: "https://tyler-li-mcgill.tech/",
   integrations: [mdx(), sitemap(), tailwind()],
-  outDir: "/dist"
+  outDir: "dist/"
 });
