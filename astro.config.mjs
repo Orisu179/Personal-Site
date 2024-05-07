@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://main.d2s4n1zaric3x6.amplifyapp.com',
+  site: '',
   integrations: [mdx(), sitemap(), tailwind()],
   outDir: "./dist"
 });
