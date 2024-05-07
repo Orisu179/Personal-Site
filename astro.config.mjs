@@ -9,5 +9,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: '',
   integrations: [mdx(), sitemap(), tailwind()],
-  outDir: "./dist"
+  outDir: "/dist"
 });
