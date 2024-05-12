@@ -1,45 +1,32 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+// TODO: Make sure to sync up front-page and project page projects, so I don't have to change it twice
 ---
 
 <BaseLayout title = "Projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Hackathons</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="This is sample text for project 1"
-    url="#"
-    badge="NEW"
+      title="Am I Tried"
+      img="/post_img.webp"
+      desc="Runner up winner at hacktech 2024 by Caltech"
+      url="https://devpost.com/software/am-i-tired-ait"
+      badge="NEW"
   />
   <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="This is sample text for project 2"
-    url="#"
-  />
-
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Personal Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
+    title="Amati++"
     img="/post_img.webp"
-    desc="This is sample text for project 3"
-    url="#"
+    desc="Project I am working on for Google Summer of Code 2024"
+    url="https://github.com/Orisu179/AmatiPP"
     badge="FOSS"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
   />
   <div class="divider my-0"></div>
 </BaseLayout>
