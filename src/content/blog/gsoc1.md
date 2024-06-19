@@ -13,6 +13,9 @@ I think I will still be on schedule to complete the primary goals.
 ### Week 1 - CLAP support
 During the first week, I managed to add [this](https://github.com/free-audio/clap-juce-extensions) JUCE extension to the project to enable CLAP format build target.
 While it works and compiles, there are still work to be done in this area once MIDI support is added.
+Also, I got rid of some of the checks in Github Actions, namely building for Windows and MacOS, along with getting rid of pluginval for now. Putting back in pluginval is something on the Todo list. 
+
+The relevant PR is here: https://github.com/Orisu179/AmatiPP/pull/6 and ready for review
 
 
 ### Week 2 and 3 - UI Refactor
@@ -25,7 +28,7 @@ For Colour, I thought it would be as simple as overriding the LookAndFeelV4 clas
 This decision wasn't easy, and I am open to any alternatives if my mentors have any idea. I understand that it might even be an anti-pattern for some people, but I do think this is the simplest way of doing this.
 The current implementation is a Meyers Singleton, which is thread safe according to StackOverflow.
 
-
+The relevant PR is here: https://github.com/Orisu179/AmatiPP/pull/7 and ready for review
 
 ### What's next
 Currently, there are some bugs with the current build relating to the Faust Parameters, having multiple Sliders in Faust code won't all show up, 
